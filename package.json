@@ -1,0 +1,23 @@
+{
+  "name": "phonecli",
+  "version": "1.0.0",
+  "description": "Phonebook management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./Commander.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "inquirer": "^8.2.5",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
